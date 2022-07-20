@@ -80,6 +80,12 @@ h2, h3{
     text-decoration: none;
     color:black;
 }
+form{
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left !important;
+}
+
 
 .contenido1{
     margin-bottom: 1em;
@@ -138,7 +144,7 @@ aside .complete{
     /* margin: 1.2em; */
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
 
 }
@@ -304,7 +310,7 @@ footer{
 
     form {
         width: 80vw;
-        padding: 20px;
+        /* padding: 20px; */
         margin: 20px auto;
         text-align: left !important;
     }
@@ -449,9 +455,9 @@ iframe{
      height: 200px;
  }
 
-    /* body {
-        font-size: 0.75em;
-    } */
+ form {
+    width: 100vw !important;
+}
 
 #botonera li:last-child{
     display: none;
