@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="funciones.js"></script>
+    <title>NYC</title>
+</head>
+<body>
+    <header>
+        <h1 id="#menu"><a href="index.html">NYC</a></h1>
+        <nav id="menu">
+            <ul id="botonera">
+                <li><a href="#menu"> Abrir</a></li>
+                <li><a href="#"> Cerrar</a></li>
+            </ul>
+            <ul id="navegacion">
+                <li><a class="Home" href="index.html">Home</a></li>
+                <li><a href="#">Itinerario</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section>
+        <figure>
+            <picture>
+                <source media="(min-width: 900px)" srcset="imagenes/Banner_pc.png">
+                <source media="(min-width: 577px)" srcset="imagenes/Banner_tablet.png">
+                <img class="principal" src="imagenes/Banner_cel.png" alt="Ciudad de Nueva York">
+            </picture>
+        </figure>
+    </section>
+        <main>
+
+        <section>
+        <h2 id="productos">Itinerario</h2>
+        <div id="bolsas">
+            <div>
+                <figure>
+                    <a href="#WS"> <picture>
+                        <img src="imagenes/wall_cel.png" alt=" wall street"/> </picture>
+                        <p class="content" lang="en">Wall Street</p>
+                    </a>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    
+                        <a href="#CP"> <picture><img src="imagenes/cp_cel.png" alt="central Park"></picture> <p class="content" lang="en">Central Park</p></a>
+                    
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    
+                        <a href="#TS"> <picture><img 
+                            src="imagenes/times_cel.png" alt="Times Square"> </picture><p class="content" lang="en">Times Square</p></a>
+                    
+            </figure>
+        </div>
+            <div>
+                <figure>
+                    
+                        <a href="#BB"> <picture> <img src="imagenes/puente_cel.png" alt="Brooklyn Bridge" ></picture><p class="content" lang="en">Brooklyn Bridge</p></a>
+                    
+                </figure>
+            </div>
+        </div>
+
+<h3 id="WS">Wall Street</h3>
+<div class="centrado">
+<section id="find">
+    <p class="contenido1">
+        <strong><span lang="en">Wall Street</span> es una calle ubicada en el bajo Manhattan, Nueva York. En ella se encuentra el distrito financiero más famoso del mundo, la Bolsa de Valores de Nueva York, conocida en inglés con las siglas:<abbr title="New York Stock Exchange" lang="en"> NYSE</abbr>
+        , donde se realizan la mayoría de actividades financieras del país, como la compra y venta de bonos y acciones.</strong>
+        </p>
+        <span id="boton"  onclick="mostrar()">Ver más</span>
+        <div id="obj1">
+        <p>
+            El Distrito Financiero es mucho más que la Bolsa y la fotografiada estatua del toro. Tiene otros lugares muy interesantes como el Banco de la Reserva Federal y su bóveda de lingotes de oro que pueden visitar gratis.<br/>
+            En las calles de Wall Street verán edificios ejemplos de la obsesión norteamericana por la arquitectura monumental de inspiración griega. Columnas, capiteles y mármoles pululan en esta zona.
+        </p>
+        <span id="boton3"  onclick="ocultar()">Cerrar</span>
+        </div>
+        </section>
+        <section>
+            <figure>
+                <picture>
+                    <source media="(min-width: 577px)" srcset="imagenes/ws_pc.png">
+                    <img class="principal" src="imagenes/ws_cel.png" alt="Wall Street"/>
+                </picture>
+            </figure>
+        </section>
+</div>
+
+<h3 id="CP">Central Park</h3>
+<div class="centrado">
+    <section id="find2">
+        <p class="contenido1">
+            <strong>Central Park es un enorme parque público inaugurado en 1857 y situado en pleno centro de Manhattan.</strong>
+            Mide aproximadamente 4km de largo y unos 800m de ancho, lo que lo convierte en un larguísimo rectángulo de cerca de 350 hectáreas.
+        </p>
+        
+        <span class="centro"> <a href="#read2">Ver más </a></span>
+            <div id="read2">
+               <p>
+                Si querés admirar <span lang="en">Central Park</span> desde las alturas, hay al menos dos opciones interesantes. La que nosotros podemos recomendar es la de subir al Top of The Rock, el mirador situado en la planta 67 del Rockefeller Center, a unos 260 metros del suelo. Las vistas de Nueva York son incluso más impresionantes que las del Empire State.
+               </p>
+                <p class="cerrar"><a href="#find2">Cerrar</a></p>
+            </div>  
+    </section>
+    <section>
+        <figure>
+            <picture>
+                <source media="(min-width: 577px)" srcset="imagenes/cp_pc.png">
+                <img class="principal" src="imagenes/cp_tablet.png" alt="Central Park">
+            </picture>
+        </figure>
+    </section>
+        </div>
+<h3 id="TS">Times Square</h3>
+<div class="centrado">
+    <section id="find3">
+        <p class="contenido1">
+                <strong>Times Square es el corazón y el lugar más turístico que visitar en Nueva York. Todos los que visitamos esta ciudad pasamos varias veces por este cruce de calles, ya sea de día o de noche</strong>, para quedarnos fascinado con sus carteles publicitarios y luces de neón.
+                Para hacer la mejores fotos de este lugar te recomendamos subir a las escaleras rojas del <abbr title="Tickets">TKTS</abbr>, desde donde obtendrás una fantástica panorámica de todo Times Square. Este sitio también es perfecto para adquirir entradas de los espectáculos de Broadway para el mismo día, con increíbles descuentos.
+        </p>
+        
+        <span class="centro"> <a href="#read3">Ver más </a></span>
+            <div id="read3">
+                <p>
+                    El nombre de <span lang="en">Times Square</span> proviene del periódico <span lang="en">The New York Times</span>, que en 1904 se trasladó al edificio One Times Square (desde donde hoy en día cae la famosa bola de Fin de Año). <br/>
+
+                    Los teatros de <span lang="en">Broadway </span> forman parte de Times Square… ¡más o menos! Times Square se encuentra dentro del Theater District, un barrio un poco más amplio donde está la mayoría de teatros de Broadway y de off-Broadway.
+                    No todos los teatros están en Times Square, ¡pero ya es imposible imaginarlos por separado!
+                </p>
+                <p class="cerrar"><a href="#find3">Cerrar</a></p>
+            </div>
+            </section>
+            <section>
+                <figure>
+                    <picture>
+                        <source media="(min-width: 577px)" srcset="imagenes/ts_pc.png">
+                        <img class="principal" src="imagenes/ts_cel.png" alt="Times Square">
+                    </picture>
+                </figure>
+            </section>
+         
+            </div>
+            
+   
+<h3 id="BB">Brooklyn Bridge</h3>
+<div class="centrado">
+    <section id="find4">
+        <p class="contenido1">
+            <strong>Puente de Brooklyn, construido en 1883, una la isla de Manhattan con el barrio de Brooklyn, y es el puente más fotogénico y cinematográfico que ver en Nueva York.</strong>
+            Cruzar el East River al atardecer por los casi 2 kilómetros de este puente colgante es además una de las mejores experiencias que puedes tener en esta ciudad.
+        </p>
+            
+            <span class="centro" lang="en"> <a href="#read4">Ver más</a></span>
+                <div id="read4">
+                    <p>
+                        Desde varios puntos podrás hacer algunas de las mejores fotos de Nueva York, tanto mientras cruzas el puente, como después, en Brooklyn Heights Promenade y el Empire Fulton Ferry Park, dos miradores espectaculares desde donde tendrás unas perspectivas únicas del puente desde la parte de Brooklyn.
+                    </p>
+                        <p class="cerrar"><a href="#find4">Cerrar</a></p>
+                </div>     
+        </section>
+        <section>
+            <figure>
+                <picture>
+                    <source media="(min-width: 577px)" srcset="imagenes/bb_pc.png">
+                    <img class="principal" src="imagenes/bb_cel.png" alt="Banner Coffee">
+                </picture>
+            </figure>
+        </section>
+</div>
+<div class="contenedorvideo">
+    <h2 class="titulovideo">Encontrá en el mapa los puntos que más te interesan</h2>
+    <figure>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799160891!2d-74.25987584510595!3d40.69767006338158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1627511061666!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</figure>
+</div>
+</section>
+</main>
+        <footer>
+        <div class="footer-top">
+        <h2>NYC</h2>
+        <p>Florencia Montani</p>
+        <ul>
+            <li><a href="#"><img src="imagenes/fb.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="imagenes/ig.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="imagenes/tiktok.png" alt="tiktok"></a></li>
+
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2021 - Mabel Garcia - Maqueteado web</p>
+    </div>
+        </footer>
+</body>
+</html>
