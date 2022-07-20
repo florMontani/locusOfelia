@@ -13,7 +13,7 @@ function ocultar(){
     window.addEventListener("load", function loadImagine() {
         new Glider(document.querySelector(".lista"),
         {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 4,
             
             dots: '.indicador',
@@ -28,7 +28,7 @@ function ocultar(){
     window.addEventListener("load", function loadImagine1() {
         new Glider(document.querySelector(".lista2"),
         {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 4,
             
             dots: '.indicadores',
@@ -43,7 +43,7 @@ function ocultar(){
     window.addEventListener("load", function loadImagine2() {
         new Glider(document.querySelector(".lista3"),
         {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 4,
             
             dots: '.ind',
@@ -57,7 +57,7 @@ function ocultar(){
     window.addEventListener("load", function loadImagine3() {
         new Glider(document.querySelector(".lista4"),
         {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 4,
             
             dots: '.cont',
@@ -71,7 +71,7 @@ function ocultar(){
     window.addEventListener("load", function loadImagine4() {
         new Glider(document.querySelector(".lista5"),
         {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 4,
             
             dots: '.contenido',
